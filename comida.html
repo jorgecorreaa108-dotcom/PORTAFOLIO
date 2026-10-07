@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida</title>
+    <!-- CONEXIÓN AL CSS LOCAL -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .colorfondoNegro {
+            background-color: gray;
+            padding: 10px;
+            color: white;
+        }
+
+        .colorfondoNegro a {
+            color: white;
+        }
+
+        .colorfondoAmarillo {
+            background-color: yellow;
+            padding: 10px;
+            color: red;
+        }
+
+        .colorfondoAmarillo a {
+            color: red;
+        }
+        .colorfondoGuinda {
+            background-color: #800000;
+            padding: 10px;
+            color: white;
+            border-radius: 6px;
+        }
+
+        .colorfondoGuinda .p-3 a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <!-- Navegación principal -->
+        <nav class="mt-3 d-flex gap-2 flex-wrap justify-content-end" aria-label="Navegación principal">
+            <a href="index.html" class="btn btn-primary">INICIO</a>
+            <a href="snacks.html" class="btn btn-primary">SNACKS</a>
+            <a href="comida.html" class="btn btn-primary">COMIDA</a>
+            <a href="contacto.html" class="btn btn-primary">CONTACTO</a>
+        </nav>
+
+        <h1 class="mt-3">COMIDA</h1>
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" class="d-block mx-auto rounded-circle mt-3 mb-3" alt="Pizza para representar comida" width="100" height="100" style="object-fit: cover; max-width: 100px;">
+
+        <section class="colorfondoGuinda mt-4">
+            <div class="row g-3 text-center font-weight-bold">
+                <div class="col-4 col-md-3 colorfondoNegro border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">JAIME</a>
+                </div>
+                <div class="col-4 col-md-3 colorfondoNegro border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">SALOMON</a>
+                </div>
+                <div class="col-4 col-md-6 p-3 border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">PITAGORAS</a>
+                </div>
+            </div>
+            <div class="row g-3 text-center font-weight-bold mt-1">
+                <div class="col-4 col-md-6 colorfondoAmarillo border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">PLATON</a>
+                </div>
+                <div class="col-4 col-md-3 colorfondoAmarillo border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">ELOSK</a>
+                </div>
+                <div class="col-4 col-md-3 p-3 border shadow">
+                    <a href="#" class="text-decoration-none fw-bold">SISIFO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla -->
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered table-striped" style="max-width: 300px;">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Calif Real</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portales</td>
+                        <td>x</td>
+                    </tr>
+                    <tr>
+                        <td>Orientación</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Entornos</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- CONEXIÓN AL JAVASCRIPT LOCAL -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
